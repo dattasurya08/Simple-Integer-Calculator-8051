@@ -3,7 +3,7 @@ KEYBOARD4X4.H
 
 Header file for 80C51 Microcontroller.
 Author(s): Sree Suryadatta M Vadhoolas (datta_surya08).
-Description: C Library file for 4x4 Keyboard interface with 8051.
+Description: Header file for 4x4 Keyboard interface with 8051.
 ---------------------------------------------------------------------------*/
 
 #ifndef __KEYBOARD4X4_H__
