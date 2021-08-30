@@ -185,7 +185,7 @@ void main()
 				if(done)
 				{
 				    lcdCMDorDISPLAY(command, LCD_CLR_DISP);
-					done = 0; 
+					done = 0;
 				}
 				// key[3][0] = 'C': CLEAR
 				if(expn[i] == key[3][0])
