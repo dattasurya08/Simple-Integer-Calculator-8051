@@ -13,7 +13,7 @@ Description: C Library file for Delay Subroutines of different ranges.
 void smallDelay(void)
 {
     char sd;
-	for(sd = 0; sd < 125; sd++);
+	  for(sd = 0; sd < 125; sd++);
 }
 #endif
 
@@ -22,8 +22,8 @@ void smallDelay(void)
 void delayMS(unsigned int Tms)
 {
     unsigned int t, s;
-	for(t = 0; t < Tms; t++)
-	    for(s = 0; s < 1275; s++);
+	  for(t = 0; t < Tms; t++)
+	      for(s = 0; s < 1275; s++);
 }
 #endif
 
@@ -32,7 +32,7 @@ void delayMS(unsigned int Tms)
 void delayS(unsigned int Ts)
 {
     unsigned int T;
-	for(T = 0; T < Ts; T++)
-	    delayMS(1000);
+	  for(T = 0; T < Ts; T++)
+	      delayMS(1000);
 }
 #endif

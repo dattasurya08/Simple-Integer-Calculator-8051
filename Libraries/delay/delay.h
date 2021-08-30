@@ -19,5 +19,4 @@ extern void smallDelay(void);
 extern void delayMS(unsigned int);
 extern void delayS(unsigned int);
 
-
 #endif
