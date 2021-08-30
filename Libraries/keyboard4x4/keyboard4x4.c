@@ -2,7 +2,7 @@
 KEYBOARD4X4.C
 
 C Library file for 80C51 Microcontroller.
-Author(s): Sree Suryadatta M Vadhoolas (datta_surya08).
+Author(s): Sree Suryadatta M Vadhoolas (dattasurya08).
 Description: C Library file for 4x4 Keyboard interface with 8051.
 ---------------------------------------------------------------------------*/
 
@@ -30,7 +30,7 @@ unsigned char getRow(void)
 		else
 		{
 		    pval = (pval << 1);
-		}   
+		}
 	}
 	return curRow;
 }
@@ -70,7 +70,7 @@ void keyboardInit(void)
     colPort = 0xff;
 	rowPort = 0x00;
 	delayMS(10);
-	while(keypressed());                // Initial: no key pressed 
+	while(keypressed());                // Initial: no key pressed
 }
 
 /* Subroutine to get key value when pressed */
