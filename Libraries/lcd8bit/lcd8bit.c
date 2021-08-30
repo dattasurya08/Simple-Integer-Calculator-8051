@@ -2,7 +2,7 @@
 LCD8BIT.C
 
 C Library file for 80C51 Microcontroller.
-Author(s): Sree Suryadatta M Vadhoolas (datta_surya08).
+Author(s): Sree Suryadatta M Vadhoolas (dattasurya08).
 Description: C Library file for 16x2 LCD Display operating in 8-bit mode.
 ---------------------------------------------------------------------------*/
 
